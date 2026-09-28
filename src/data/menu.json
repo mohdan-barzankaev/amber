@@ -1,0 +1,969 @@
+{
+  "categories": [
+    {
+      "id": "breakfast",
+      "name": "Завтраки",
+      "group": "food"
+    },
+    {
+      "id": "mains",
+      "name": "Блюда",
+      "group": "food"
+    },
+    {
+      "id": "pasta",
+      "name": "Пасты",
+      "group": "food"
+    },
+    {
+      "id": "salads",
+      "name": "Салаты",
+      "group": "food"
+    },
+    {
+      "id": "soups",
+      "name": "Супы",
+      "group": "food"
+    },
+    {
+      "id": "desserts",
+      "name": "Десерты",
+      "group": "food"
+    },
+    {
+      "id": "black-coffee",
+      "name": "Черный кофе",
+      "group": "drinks"
+    },
+    {
+      "id": "alternative",
+      "name": "Альтернативный кофе",
+      "group": "drinks"
+    },
+    {
+      "id": "milk-coffee",
+      "name": "Молочный кофе",
+      "group": "drinks"
+    },
+    {
+      "id": "raf",
+      "name": "Раф",
+      "group": "drinks"
+    },
+    {
+      "id": "iced-coffee",
+      "name": "Холодный кофе",
+      "group": "drinks"
+    },
+    {
+      "id": "lemonade",
+      "name": "Лимонад",
+      "group": "drinks"
+    },
+    {
+      "id": "fresh",
+      "name": "Фреш",
+      "group": "drinks"
+    },
+    {
+      "id": "smoothie",
+      "name": "Смузи",
+      "group": "drinks"
+    },
+    {
+      "id": "tea",
+      "name": "Чай",
+      "group": "drinks"
+    },
+    {
+      "id": "iced-tea",
+      "name": "Холодный чай",
+      "group": "drinks"
+    },
+    {
+      "id": "not-coffee",
+      "name": "Не кофе",
+      "group": "drinks"
+    },
+    {
+      "id": "signature-tea",
+      "name": "Авторский чай",
+      "group": "drinks"
+    }
+  ],
+  "products": [
+    {
+      "id": "c742cf",
+      "name": "Нагетсы",
+      "price": 180,
+      "categories": ["mains"],
+      "group": "food",
+      "image": "/images/c742cf.webp"
+    },
+    {
+      "id": "c742cc",
+      "name": "Креветки в кляре",
+      "price": 640,
+      "categories": ["mains"],
+      "group": "food",
+      "image": "/images/c742cc.webp"
+    },
+    {
+      "id": "c62caa",
+      "name": "Стейк Пеппер (гарнир на выбор)",
+      "price": 1100,
+      "categories": ["mains"],
+      "group": "food",
+      "image": "/images/c62caa.webp"
+    },
+    {
+      "id": "c62ca5",
+      "name": "Медальоны в грибном соусе",
+      "price": 1100,
+      "categories": ["mains"],
+      "group": "food",
+      "image": "/images/c62ca5.webp"
+    },
+    {
+      "id": "c61200",
+      "name": "Бургер куриный",
+      "price": 490,
+      "categories": ["mains"],
+      "group": "food",
+      "image": "/images/c61200.webp"
+    },
+    {
+      "id": "c611ff",
+      "name": "Бургер говяжий",
+      "price": 590,
+      "categories": ["mains"],
+      "group": "food",
+      "image": "/images/c611ff.webp"
+    },
+    {
+      "id": "c60fbd",
+      "name": "Лапша Соба",
+      "price": 580,
+      "categories": ["mains", "pasta"],
+      "group": "food",
+      "image": "/images/c60fbd.webp"
+    },
+    {
+      "id": "c6093a",
+      "name": "Тартар с лососем и яйцом пашот",
+      "price": 790,
+      "categories": ["mains"],
+      "group": "food",
+      "image": "/images/c6093a.webp"
+    },
+    {
+      "id": "c1e1b3",
+      "name": "Медальоны с соусом Демиглас",
+      "price": 850,
+      "categories": ["mains"],
+      "group": "food",
+      "image": "/images/c1e1b3.webp"
+    },
+    {
+      "id": "bf2b8e",
+      "name": "Курица карри",
+      "price": 490,
+      "categories": ["mains"],
+      "group": "food",
+      "image": "/images/bf2b8e.webp"
+    },
+    {
+      "id": "bf2b8d",
+      "name": "Кус кус с лососем",
+      "price": 640,
+      "categories": ["mains"],
+      "group": "food",
+      "image": "/images/bf2b8d.webp"
+    },
+    {
+      "id": "bf2b8a",
+      "name": "Бефстроганов",
+      "price": 480,
+      "categories": ["mains"],
+      "group": "food",
+      "image": "/images/bf2b8a.webp"
+    },
+    {
+      "id": "c74306",
+      "name": "Мороженое (шарик)",
+      "price": 120,
+      "categories": ["desserts"],
+      "group": "food",
+      "image": "/images/c74306.webp"
+    },
+    {
+      "id": "c63c6c",
+      "name": "Фондан шоколадный",
+      "price": 350,
+      "categories": ["desserts"],
+      "group": "food",
+      "image": "/images/c63c6c.webp"
+    },
+    {
+      "id": "bf2b9d",
+      "name": "Блинный десерт",
+      "price": 460,
+      "categories": ["desserts"],
+      "group": "food",
+      "image": "/images/bf2b9d.webp"
+    },
+    {
+      "id": "c64af4",
+      "name": "Сискал т1о берам",
+      "price": 250,
+      "categories": ["breakfast"],
+      "group": "food",
+      "image": "/images/c64af4.webp"
+    },
+    {
+      "id": "c64af3",
+      "name": "Кукурузная каша",
+      "price": 250,
+      "categories": ["breakfast"],
+      "group": "food",
+      "image": "/images/c64af3.webp"
+    },
+    {
+      "id": "c628b6",
+      "name": "Шакшука",
+      "price": 320,
+      "categories": ["breakfast"],
+      "group": "food",
+      "image": "/images/c628b6.webp"
+    },
+    {
+      "id": "c1e1b6",
+      "name": "Брускетта с креветками",
+      "price": 490,
+      "categories": ["breakfast"],
+      "group": "food",
+      "image": "/images/c1e1b6.webp"
+    },
+    {
+      "id": "c1e1b1",
+      "name": "Кесадилья",
+      "price": 390,
+      "categories": ["breakfast"],
+      "group": "food",
+      "image": "/images/c1e1b1.webp"
+    },
+    {
+      "id": "bf2b97",
+      "name": "Поке с креветками",
+      "price": 440,
+      "categories": ["breakfast"],
+      "group": "food",
+      "image": "/images/bf2b97.webp"
+    },
+    {
+      "id": "bf2b96",
+      "name": "Поке с лососем",
+      "price": 520,
+      "categories": ["breakfast"],
+      "group": "food",
+      "image": "/images/bf2b96.webp"
+    },
+    {
+      "id": "bf2b95",
+      "name": "Боул с курицей",
+      "price": 420,
+      "categories": ["breakfast"],
+      "group": "food",
+      "image": "/images/bf2b95.webp"
+    },
+    {
+      "id": "bf643d",
+      "name": "Рисовая каша на кокосовом молоке",
+      "price": 390,
+      "categories": ["breakfast"],
+      "group": "food",
+      "image": "/images/bf643d.webp"
+    },
+    {
+      "id": "bf643a",
+      "name": "Рисовая каша на банановом молоке",
+      "price": 390,
+      "categories": ["breakfast"],
+      "group": "food",
+      "image": "/images/bf643a.webp"
+    },
+    {
+      "id": "bf2b62",
+      "name": "Блин с семгой",
+      "price": 420,
+      "categories": ["breakfast"],
+      "group": "food",
+      "image": "/images/bf2b62.webp"
+    },
+    {
+      "id": "bf2b61",
+      "name": "Сэндвич AMBER с курицей",
+      "price": 340,
+      "categories": ["breakfast"],
+      "group": "food",
+      "image": "/images/bf2b61.webp"
+    },
+    {
+      "id": "bf6436",
+      "name": "Орзо с курицей",
+      "price": 440,
+      "categories": ["pasta"],
+      "group": "food",
+      "image": "/images/bf6436.webp"
+    },
+    {
+      "id": "bf6435",
+      "name": "Орзо с креветками",
+      "price": 530,
+      "categories": ["pasta"],
+      "group": "food",
+      "image": "/images/bf6435.webp"
+    },
+    {
+      "id": "bf2b91",
+      "name": "Паста Фетучини",
+      "price": 420,
+      "categories": ["pasta"],
+      "group": "food",
+      "image": "/images/bf2b91.webp"
+    },
+    {
+      "id": "bf2b94",
+      "name": "Паста Хот Чили",
+      "price": 350,
+      "categories": ["pasta"],
+      "group": "food",
+      "image": "/images/bf2b94.webp"
+    },
+    {
+      "id": "bf2b93",
+      "name": "Паста с морепродуктами",
+      "price": 640,
+      "categories": ["pasta"],
+      "group": "food",
+      "image": "/images/bf2b93.webp"
+    },
+    {
+      "id": "bf2b92",
+      "name": "Лапша Вок",
+      "price": 450,
+      "categories": ["pasta"],
+      "group": "food",
+      "image": "/images/bf2b92.webp"
+    },
+    {
+      "id": "bf2b90",
+      "name": "Паста Песто",
+      "price": 420,
+      "categories": ["pasta"],
+      "group": "food",
+      "image": "/images/bf2b90.webp"
+    },
+    {
+      "id": "c64af2",
+      "name": "Салат Амбер",
+      "price": 650,
+      "categories": ["salads"],
+      "group": "food",
+      "image": "/images/c64af2.webp"
+    },
+    {
+      "id": "bf2b9c",
+      "name": "Греческий салат",
+      "price": 310,
+      "categories": ["salads"],
+      "group": "food",
+      "image": "/images/bf2b9c.webp"
+    },
+    {
+      "id": "bf2b9b",
+      "name": "Теплый салат с вырезкой",
+      "price": 390,
+      "categories": ["salads"],
+      "group": "food",
+      "image": "/images/bf2b9b.webp"
+    },
+    {
+      "id": "bf2b98",
+      "name": "Цезарь с курицей",
+      "price": 390,
+      "categories": ["salads"],
+      "group": "food",
+      "image": "/images/bf2b98.webp"
+    },
+    {
+      "id": "c1b48b",
+      "name": "Куриный суп",
+      "price": 340,
+      "categories": ["soups"],
+      "group": "food",
+      "image": "/images/c1b48b.webp"
+    },
+    {
+      "id": "c1ab10",
+      "name": "Чечевичный крем-суп",
+      "price": 320,
+      "categories": ["soups"],
+      "group": "food",
+      "image": "/images/c1ab10.webp"
+    },
+    {
+      "id": "bf6430",
+      "name": "Суп Фо-Бо",
+      "price": 510,
+      "categories": ["soups"],
+      "group": "food",
+      "image": "/images/bf6430.webp"
+    },
+    {
+      "id": "bf2bb4",
+      "name": "Том Ям",
+      "price": 620,
+      "categories": ["soups"],
+      "group": "food",
+      "image": "/images/bf2bb4.webp"
+    },
+    {
+      "id": "bf2b63",
+      "name": "Рамен с курицей",
+      "price": 420,
+      "categories": ["soups"],
+      "group": "food",
+      "image": "/images/bf2b63.webp"
+    },
+    {
+      "id": "black-coffee-1",
+      "name": "Эспрессо",
+      "price": 200,
+      "categories": ["black-coffee"],
+      "group": "drinks"
+    },
+    {
+      "id": "black-coffee-2",
+      "name": "Эспрессо мощный",
+      "price": 250,
+      "categories": ["black-coffee"],
+      "group": "drinks"
+    },
+    {
+      "id": "black-coffee-3",
+      "name": "Американо",
+      "price": 200,
+      "categories": ["black-coffee"],
+      "group": "drinks"
+    },
+    {
+      "id": "black-coffee-4",
+      "name": "Апельсиновый шот",
+      "price": 290,
+      "categories": ["black-coffee"],
+      "group": "drinks"
+    },
+    {
+      "id": "black-coffee-5",
+      "name": "Гранатовый шот",
+      "price": 290,
+      "categories": ["black-coffee"],
+      "group": "drinks"
+    },
+    {
+      "id": "alternative-1",
+      "name": "Воронка V60",
+      "price": 330,
+      "categories": ["alternative"],
+      "group": "drinks"
+    },
+    {
+      "id": "alternative-2",
+      "name": "Фильтр кофе",
+      "price": 280,
+      "categories": ["alternative"],
+      "group": "drinks",
+      "variants": [
+        {
+          "id": "250",
+          "label": "250 мл",
+          "price": 280
+        },
+        {
+          "id": "350",
+          "label": "350 мл",
+          "price": 320
+        }
+      ]
+    },
+    {
+      "id": "alternative-3",
+      "name": "Глинткофе",
+      "price": 330,
+      "categories": ["alternative"],
+      "group": "drinks"
+    },
+    {
+      "id": "milk-coffee-1",
+      "name": "Капучино",
+      "price": 280,
+      "categories": ["milk-coffee"],
+      "group": "drinks",
+      "variants": [
+        {
+          "id": "250",
+          "label": "250 мл",
+          "price": 280
+        },
+        {
+          "id": "350",
+          "label": "350 мл",
+          "price": 330
+        }
+      ]
+    },
+    {
+      "id": "milk-coffee-2",
+      "name": "Флэт уайт",
+      "price": 280,
+      "categories": ["milk-coffee"],
+      "group": "drinks"
+    },
+    {
+      "id": "milk-coffee-3",
+      "name": "Латте",
+      "price": 300,
+      "categories": ["milk-coffee"],
+      "group": "drinks"
+    },
+    {
+      "id": "milk-coffee-4",
+      "name": "Тыквенный латте",
+      "price": 330,
+      "categories": ["milk-coffee"],
+      "group": "drinks"
+    },
+    {
+      "id": "raf-1",
+      "name": "Цитрусовый",
+      "price": 380,
+      "categories": ["raf"],
+      "group": "drinks"
+    },
+    {
+      "id": "raf-2",
+      "name": "Классический",
+      "price": 360,
+      "categories": ["raf"],
+      "group": "drinks"
+    },
+    {
+      "id": "raf-3",
+      "name": "С урбечом",
+      "price": 380,
+      "categories": ["raf"],
+      "group": "drinks"
+    },
+    {
+      "id": "raf-4",
+      "name": "Банан-карамель",
+      "price": 380,
+      "categories": ["raf"],
+      "group": "drinks"
+    },
+    {
+      "id": "raf-5",
+      "name": "Баунти",
+      "price": 380,
+      "categories": ["raf"],
+      "group": "drinks"
+    },
+    {
+      "id": "raf-6",
+      "name": "Лавандовый",
+      "price": 380,
+      "categories": ["raf"],
+      "group": "drinks"
+    },
+    {
+      "id": "raf-7",
+      "name": "Медово-ореховый",
+      "price": 380,
+      "categories": ["raf"],
+      "group": "drinks"
+    },
+    {
+      "id": "iced-coffee-1",
+      "name": "Айс кофе",
+      "price": 290,
+      "categories": ["iced-coffee"],
+      "group": "drinks"
+    },
+    {
+      "id": "iced-coffee-2",
+      "name": "Айс урбеч",
+      "price": 380,
+      "categories": ["iced-coffee"],
+      "group": "drinks"
+    },
+    {
+      "id": "iced-coffee-3",
+      "name": "Фраппучино",
+      "price": 350,
+      "categories": ["iced-coffee"],
+      "group": "drinks"
+    },
+    {
+      "id": "iced-coffee-4",
+      "name": "Бамбл кофе",
+      "price": 420,
+      "categories": ["iced-coffee"],
+      "group": "drinks"
+    },
+    {
+      "id": "iced-coffee-5",
+      "name": "Бамбл-Гран",
+      "price": 420,
+      "categories": ["iced-coffee"],
+      "group": "drinks"
+    },
+    {
+      "id": "iced-coffee-6",
+      "name": "Гранатовый тоник",
+      "price": 280,
+      "categories": ["iced-coffee"],
+      "group": "drinks"
+    },
+    {
+      "id": "iced-coffee-7",
+      "name": "Эспрессо тоник",
+      "price": 260,
+      "categories": ["iced-coffee"],
+      "group": "drinks"
+    },
+    {
+      "id": "lemonade-1",
+      "name": "Амбер",
+      "price": 300,
+      "categories": ["lemonade"],
+      "group": "drinks"
+    },
+    {
+      "id": "lemonade-2",
+      "name": "Яблоко Киви",
+      "price": 300,
+      "categories": ["lemonade"],
+      "group": "drinks"
+    },
+    {
+      "id": "lemonade-3",
+      "name": "Щавелевый",
+      "price": 300,
+      "categories": ["lemonade"],
+      "group": "drinks"
+    },
+    {
+      "id": "lemonade-4",
+      "name": "Клубника-апельсин",
+      "price": 300,
+      "categories": ["lemonade"],
+      "group": "drinks"
+    },
+    {
+      "id": "lemonade-5",
+      "name": "Киви-дыня",
+      "price": 300,
+      "categories": ["lemonade"],
+      "group": "drinks"
+    },
+    {
+      "id": "lemonade-6",
+      "name": "Манго-маракуйа (написание источника)",
+      "price": 300,
+      "categories": ["lemonade"],
+      "group": "drinks"
+    },
+    {
+      "id": "lemonade-7",
+      "name": "Пряный-цитрус",
+      "price": 300,
+      "categories": ["lemonade"],
+      "group": "drinks"
+    },
+    {
+      "id": "lemonade-8",
+      "name": "Слива-ананас",
+      "price": 300,
+      "categories": ["lemonade"],
+      "group": "drinks"
+    },
+    {
+      "id": "lemonade-9",
+      "name": "Ягодный",
+      "price": 300,
+      "categories": ["lemonade"],
+      "group": "drinks"
+    },
+    {
+      "id": "lemonade-10",
+      "name": "Мохито классический",
+      "price": 300,
+      "categories": ["lemonade"],
+      "group": "drinks"
+    },
+    {
+      "id": "lemonade-11",
+      "name": "Мохито клубничный",
+      "price": 300,
+      "categories": ["lemonade"],
+      "group": "drinks"
+    },
+    {
+      "id": "lemonade-12",
+      "name": "Ананас маракуйя",
+      "price": 300,
+      "categories": ["lemonade"],
+      "group": "drinks"
+    },
+    {
+      "id": "fresh-1",
+      "name": "Ананас",
+      "price": 540,
+      "categories": ["fresh"],
+      "group": "drinks"
+    },
+    {
+      "id": "fresh-2",
+      "name": "Апельсин",
+      "price": 380,
+      "categories": ["fresh"],
+      "group": "drinks"
+    },
+    {
+      "id": "fresh-3",
+      "name": "Апельсин Яблоко",
+      "price": 380,
+      "categories": ["fresh"],
+      "group": "drinks"
+    },
+    {
+      "id": "fresh-4",
+      "name": "Щавель Яблоко",
+      "price": 380,
+      "categories": ["fresh"],
+      "group": "drinks"
+    },
+    {
+      "id": "fresh-5",
+      "name": "Яблоко",
+      "price": 380,
+      "categories": ["fresh"],
+      "group": "drinks"
+    },
+    {
+      "id": "smoothie-1",
+      "name": "Манго",
+      "price": 440,
+      "categories": ["smoothie"],
+      "group": "drinks"
+    },
+    {
+      "id": "smoothie-2",
+      "name": "Арбуз",
+      "price": 340,
+      "categories": ["smoothie"],
+      "group": "drinks"
+    },
+    {
+      "id": "smoothie-3",
+      "name": "Арбуз-Малина",
+      "price": 360,
+      "categories": ["smoothie"],
+      "group": "drinks"
+    },
+    {
+      "id": "tea-1",
+      "name": "Глинтвейн вишневый",
+      "price": 280,
+      "categories": ["tea"],
+      "group": "drinks"
+    },
+    {
+      "id": "tea-2",
+      "name": "Глинтвейн гранатовый",
+      "price": 280,
+      "categories": ["tea"],
+      "group": "drinks"
+    },
+    {
+      "id": "tea-3",
+      "name": "Ассам",
+      "price": 280,
+      "categories": ["tea"],
+      "group": "drinks"
+    },
+    {
+      "id": "tea-4",
+      "name": "Зеленый-сенча",
+      "price": 280,
+      "categories": ["tea"],
+      "group": "drinks"
+    },
+    {
+      "id": "tea-5",
+      "name": "Молочный-улун",
+      "price": 280,
+      "categories": ["tea"],
+      "group": "drinks"
+    },
+    {
+      "id": "tea-6",
+      "name": "Граф Орлов",
+      "price": 280,
+      "categories": ["tea"],
+      "group": "drinks"
+    },
+    {
+      "id": "tea-7",
+      "name": "Лев",
+      "price": 280,
+      "categories": ["tea"],
+      "group": "drinks"
+    },
+    {
+      "id": "tea-8",
+      "name": "Эрл-грей",
+      "price": 280,
+      "categories": ["tea"],
+      "group": "drinks"
+    },
+    {
+      "id": "iced-tea-1",
+      "name": "Черный персиковый",
+      "price": 150,
+      "categories": ["iced-tea"],
+      "group": "drinks"
+    },
+    {
+      "id": "iced-tea-2",
+      "name": "Зеленый жасмин-персик",
+      "price": 150,
+      "categories": ["iced-tea"],
+      "group": "drinks"
+    },
+    {
+      "id": "not-coffee-1",
+      "name": "Какао",
+      "price": 250,
+      "categories": ["not-coffee"],
+      "group": "drinks"
+    },
+    {
+      "id": "not-coffee-2",
+      "name": "Горячий шоколад",
+      "price": 300,
+      "categories": ["not-coffee"],
+      "group": "drinks"
+    },
+    {
+      "id": "not-coffee-3",
+      "name": "Матча латте",
+      "price": 280,
+      "categories": ["not-coffee"],
+      "group": "drinks"
+    },
+    {
+      "id": "not-coffee-4",
+      "name": "Матча латте cold",
+      "price": 280,
+      "categories": ["not-coffee"],
+      "group": "drinks"
+    },
+    {
+      "id": "not-coffee-5",
+      "name": "Матча Бамбл",
+      "price": 440,
+      "categories": ["not-coffee"],
+      "group": "drinks"
+    },
+    {
+      "id": "not-coffee-6",
+      "name": "Голубая матча Малина",
+      "price": 300,
+      "categories": ["not-coffee"],
+      "group": "drinks"
+    },
+    {
+      "id": "not-coffee-7",
+      "name": "Драгон фрукт матча",
+      "price": 300,
+      "categories": ["not-coffee"],
+      "group": "drinks"
+    },
+    {
+      "id": "not-coffee-8",
+      "name": "Матча Манго",
+      "price": 300,
+      "categories": ["not-coffee"],
+      "group": "drinks"
+    },
+    {
+      "id": "signature-tea-1",
+      "name": "Имбирь-Малина",
+      "price": 380,
+      "categories": ["signature-tea"],
+      "group": "drinks"
+    },
+    {
+      "id": "signature-tea-2",
+      "name": "Ананас Маракуйя",
+      "price": 430,
+      "categories": ["signature-tea"],
+      "group": "drinks"
+    },
+    {
+      "id": "signature-tea-3",
+      "name": "Манго Маракуйя",
+      "price": 380,
+      "categories": ["signature-tea"],
+      "group": "drinks"
+    },
+    {
+      "id": "signature-tea-4",
+      "name": "Ягодный",
+      "price": 380,
+      "categories": ["signature-tea"],
+      "group": "drinks"
+    },
+    {
+      "id": "signature-tea-5",
+      "name": "Облепиховый",
+      "price": 430,
+      "categories": ["signature-tea"],
+      "group": "drinks"
+    },
+    {
+      "id": "signature-tea-6",
+      "name": "Анчан",
+      "price": 380,
+      "categories": ["signature-tea"],
+      "group": "drinks"
+    },
+    {
+      "id": "signature-tea-7",
+      "name": "Киви фейхоя",
+      "price": 380,
+      "categories": ["signature-tea"],
+      "group": "drinks"
+    },
+    {
+      "id": "c7bcd4",
+      "name": "Салат Хрустящий Баклажан",
+      "price": 450,
+      "categories": ["salads"],
+      "group": "food",
+      "image": "/images/c7bcd4.webp"
+    }
+  ]
+}

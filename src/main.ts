@@ -1,0 +1,15 @@
+import { createApp } from 'vue';
+import { createPinia } from 'pinia';
+import App from './App.vue';
+import router from './router';
+import '@fontsource/manrope/cyrillic-400.css';
+import '@fontsource/manrope/cyrillic-500.css';
+import '@fontsource/manrope/cyrillic-600.css';
+import '@fontsource/manrope/cyrillic-700.css';
+import '@fontsource/manrope/latin-400.css';
+import '@fontsource/manrope/latin-600.css';
+import '@fontsource/manrope/latin-700.css';
+import '@fontsource/prata/cyrillic-400.css';
+import '@fontsource/prata/latin-400.css';
+import './style.css';
+createApp(App).use(createPinia()).use(router).mount('#app');
