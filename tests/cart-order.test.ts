@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { getLines, cartTotal, sanitizeCart } from '../src/lib/cart';
 import { orderSchema, createOrderText, whatsappLink, normalizePhone } from '../src/lib/order';
 import { products } from '../src/data/menu';
+import { cafe, mapLink } from '../src/data/config';
 const order = {
   name: 'Тестовый клиент',
   phone: '+7 (999) 123-45-67',
@@ -46,6 +47,17 @@ describe('basket using current menu', () => {
   });
 });
 describe('order and WhatsApp handoff', () => {
+  it('uses the confirmed cafe contacts and addresses', () => {
+    expect(cafe.locations.map((location) => location.fullAddress)).toEqual([
+      'Грозный, бульвар М.А. Эсамбаева, 8',
+      'Грозный, улица Сайханова, 266',
+    ]);
+    expect(cafe.hours).toBe('08:00–23:00');
+    expect(cafe.phone).toBe('+7 (928) 024-13-13');
+    expect(mapLink(cafe.locations[0].fullAddress)).toContain(
+      encodeURIComponent('Грозный, бульвар М.А. Эсамбаева, 8'),
+    );
+  });
   it('requires address for delivery, valid phone and consent', () => {
     expect(orderSchema.safeParse(order).success).toBe(true);
     expect(orderSchema.safeParse({ ...order, address: '' }).success).toBe(false);
@@ -61,7 +73,7 @@ describe('order and WhatsApp handoff', () => {
       location: 'saykhanova',
     });
     const text = createOrderText(pickup, getLines([{ productId: 'c628b6', quantity: 1 }]));
-    expect(text).toContain('Сайханова, 53');
+    expect(text).toContain('Сайханова, 266');
     expect(text).not.toContain('Адрес доставки');
     expect(text).not.toContain('Стоимость доставки');
     expect(orderSchema.safeParse({ ...pickup, location: 'unknown' }).success).toBe(false);
