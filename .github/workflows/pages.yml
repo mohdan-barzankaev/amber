@@ -34,7 +34,7 @@ jobs:
       - name: Собрать сайт
         run: npm run build
         env:
-          VITE_BASE_PATH: /amber/
+          VITE_BASE_PATH: /
       - name: Подготовить прямые ссылки на страницы
         if: github.event_name != 'pull_request'
         run: cp dist/index.html dist/404.html

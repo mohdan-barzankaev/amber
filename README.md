@@ -26,9 +26,9 @@
 
 ## Публикация
 
-GitHub Actions проверяет линтер, тесты и сборку при обновлении `main` и в pull request. После успешных проверок обновление `main` автоматически публикуется на GitHub Pages: `https://mohdan-barzankaev.github.io/amber/`. В настройках репозитория **Settings → Pages → Build and deployment → Source** должен быть выбран **GitHub Actions**.
+GitHub Actions проверяет линтер, тесты и сборку при обновлении `main` и в pull request. После подключения собственного домена обновление `main` будет автоматически публиковаться на `https://ambercoffee.ru/`. В настройках репозитория **Settings → Pages → Build and deployment → Source** должен быть выбран **GitHub Actions**, а в **Custom domain** — `ambercoffee.ru`.
 
-Для GitHub Pages сборка использует `VITE_BASE_PATH=/amber/`; локально путь остаётся `/`. В артефакт добавляется копия `index.html` как `404.html`, чтобы прямые ссылки на `/checkout` и `/privacy` открывали приложение. Когда появится собственный домен, нужно настроить его в **Settings → Pages**, обновить DNS и изменить `VITE_BASE_PATH` в workflow на `/`, затем повторно запустить публикацию. [Документация GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
+Для собственного домена сборка использует `VITE_BASE_PATH=/`; локально путь также остаётся `/`. В артефакт добавляется копия `index.html` как `404.html`, чтобы прямые ссылки на `/checkout` и `/privacy` открывали приложение. У регистратора корневой домен должен указывать на четыре A-адреса GitHub Pages, а `www` — через CNAME на `mohdan-barzankaev.github.io`. Отдельный хостинг и CNAME-файл в репозитории при публикации через GitHub Actions не нужны. [Документация GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
 
 Страница `/privacy` описывает фактический сценарий передачи данных; она не заменяет юридические документы оператора. Перед публичным запуском предоставить окончательные документы и реквизиты владельца кофейни. Для органического поиска при необходимости добавить генерацию HTML публичных страниц на этапе сборки.
 
